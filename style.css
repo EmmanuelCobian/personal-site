@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0ead2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #adc178 !important;
+  padding: 0.75em;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+.navbar-toggler {
+    border: #fff solid 1px !important;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+#about {
+  margin-top: 2em;
+  color: #6c584c;
+}
+
+.bio {
+  margin-top: 2em;
+  color: #6c584c;
+}
+
+.intro {
+  max-width: 75%;
+}
+
+.socials {
+  color: #adc178;
+}
+
+.socials:hover {
+  color: #a98467;
+}
+
+#experience {
+  margin-top: 3.5em;
+  color: #6c584c;
+}
+
+.exp-itm {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.exp-date {
+  flex: 0 0 25%;
+  font-weight: 300;
+}
+
+.exp-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #6c584c;
+}
+
+.exp-share:hover {
+    color: #ADC178;
+}
+
+.exp-desc {
+  flex: 1 1;
+}
+
+.text-bg-custom {
+  background-color: #adc178;
+  padding: 0.5em 1.25em;
+}
+
+.resume-link {
+  margin: 1em 0;
+  max-width: 180px;
+  color: #000;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #adc178;
+  text-decoration-thickness: 3px;
+}
+
+#projects {
+  margin: 3.5em 0;
+  color: #6c584c;
+}
+
+footer {
+  color: #6c584c;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  #about,
+  .bio {
+    margin-top: 3em;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
