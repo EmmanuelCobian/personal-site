@@ -60,6 +60,9 @@ a {
   color: #6c584c;
 }
 
+.right {
+}
+
 .intro {
   max-width: 75%;
 }
@@ -94,7 +97,7 @@ a {
 }
 
 .exp-share:hover {
-    color: #ADC178;
+  color: #adc178;
 }
 
 .exp-desc {
@@ -127,6 +130,12 @@ footer {
   color: #6c584c;
 }
 
+@media (max-width: 575.98px) {
+  .nav-link-top, .nav-link-trans {
+    padding: 12px 0;
+  }
+}
+
 @media (min-width: 576px) {
 }
 
@@ -134,6 +143,15 @@ footer {
 }
 
 @media (min-width: 992px) {
+  .bio {
+    position: fixed;
+    max-width: 500px;
+  }
+
+  .right {
+    margin-left: 35%;
+    overflow: auto;
+  }
   #about,
   .bio {
     margin-top: 7em;
