@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-});
+document.addEventListener("DOMContentLoaded", () => {});
 
 let nav = document.querySelector("#nav");
 let navLinks = Array.from(document.querySelectorAll("#nav-link"));
